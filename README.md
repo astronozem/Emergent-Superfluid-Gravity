@@ -1,4 +1,4 @@
-# Emergent Gravity from a Casimir-Constrained Superfluid Vacuum (v1.3)
+# Emergent Gravity from a Casimir-Constrained Superfluid Vacuum (v1.4)
 **Author:** B. ten Broek  
 **Date:** November 2025  
 
@@ -73,6 +73,21 @@ This amplitude lies just below current Planck + BICEP/Keck 95% CL limits derived
 *Figure 2: Predicted vector-mode B-mode power spectrum from QCD-era helical superfluid turbulence (fiducial model peaking at $\sim 35\,000 \, \mu\mathrm{K}^2$, strong model $\sim 110\,000 \, \mu\mathrm{K}^2 in \ell(\ell+1)C_\ell/2\pi)$ compared to lensing B-modes, current 95% CL limits, and projected sensitivities of Simons Observatory, CMB-S4, and LiteBIRD.*
 
 <div style="page-break-after: always;"></div>
+
+## Collapsing star core bounce signature predictions addendum
+
+The **Principle of Cosmological Identity** (Section 3) posits that the gravitational field saturates at a maximal curvature/density state ($\Gamma_{\max}$), replacing the General Relativistic singularity with a regular superfluid core. This foundational deviation from GR must manifest in the most extreme strong-field events, such as the core-collapse of massive stars.
+
+The collapse dynamics leading to a proto-neutron star (PNS) or a black hole (BH) are governed by the equation of state (EoS) at super-nuclear densities. While the high-acceleration limit ensures that the metric outside the collapsing core recovers GR exponentially, the saturation boundary condition $\Gamma_{\max}$ is predicted to alter the EoS in the core's interior.
+
+### Prediction: Gravitational Wave Echoes from Non-Singular Horizons
+
+Specifically, if the final compact object is a regularized black hole (a "soliton" of the superfluid vacuum), the true singularity is replaced by the $\Gamma_{\max}$ core. The structure of the horizon is then slightly perturbed from the pure GR Kerr/Schwarzschild solution. This regularized horizon may support small, short-lived **gravitational wave echoes**—minute ringing signals that follow the main BH ringdown phase—as GWs interact with the non-singular core. The detection of such echoes, distinct from the prompt ringdown signal predicted by GR, would be direct evidence of the $\Gamma_{\max}$ saturation condition and the non-singular nature of the black hole interior.
+
+
+<div style="page-break-after: always;"></div>
+
+
 
 ## Action (fully relativistic, diffeomorphism-invariant)
 
