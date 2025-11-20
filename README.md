@@ -1,4 +1,4 @@
-# Emergent Gravity from a Casimir-Constrained Superfluid Vacuum (v1.2)
+# Emergent Gravity from a Casimir-Constrained Superfluid Vacuum (v1.3)
 **Author:** B. ten Broek  
 **Date:** November 2025  
 
