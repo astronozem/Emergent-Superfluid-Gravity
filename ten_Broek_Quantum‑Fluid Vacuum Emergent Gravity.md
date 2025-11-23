@@ -13,7 +13,7 @@ The vacuum of the Universe behaves as a relativistic superfluid whose dynamics a
 The Casimir constraint forces the vacuum to respond *exponentially* to the local matter density.  Combined with the fact that the exponential term is suppressed by the de Sitter temperature, the emergent acceleration is
 
 $$
-g_{\rm emergent}(g_{\rm bar}) \;=\;
+g_{\rm emergent}(g_{\rm bar}) =
 g_{\dagger}\Bigl[\,1-\exp\!\bigl(-\kappa\sqrt{g_{\rm bar}/g_{\dagger}}\bigr)\Bigr] ,
 \qquad
 g_{\dagger}\equiv\frac{cH_{0}}{2\pi}\, .
@@ -22,7 +22,7 @@ $$
 The only free, dimensionless number is the *pure* constant
 
 $$
-\kappa \;=\;\sqrt{2\pi}\;\frac{2\pi}{c\sqrt{cH_{0}}}\;\simeq\;1.20 ,
+\kappa = \sqrt{2\pi} \frac{2\pi}{c\sqrt{cH_{0}}} \simeq 1.20 ,
 $$
 
 which follows from the ratio of the de Sitter horizon temperature to the characteristic acceleration scale.  With this single parameter the theory reproduces the empirical Radial Acceleration Relation (RAR) for all rotationally supported galaxies, reduces to General Relativity (GR) in the high‑acceleration regime, and naturally incorporates a phonon pressure that explains galactic clustering without invoking particle dark matter.  
@@ -36,11 +36,11 @@ The quantum vacuum is described by a real scalar field $\theta(x)$ whose dynamic
 
 $$
 \boxed{%
-S \;=\;
+S  = 
 \int d^{4}x\,\sqrt{-g}\,\Bigl[
 f(X)\,R
--\;2\Lambda_{c}^{4}\,X
--\;2\Lambda_{c}^{4}\Bigl(1-e^{-\kappa\sqrt{\mathcal{G}}}\Bigr)
+- 2\Lambda_{c}^{4}\,X
+- 2\Lambda_{c}^{4}\Bigl(1-e^{-\kappa\sqrt{\mathcal{G}}}\Bigr)
 +\mathcal{L}_{b}
 +\mathcal{L}_{\rm ph}
 \Bigr] }
@@ -49,11 +49,11 @@ $$
 where  
 
 $$
-X \;\equiv\;-\frac{1}{2\Lambda_{c}^{4}}\;g^{\mu\nu}\partial_{\mu}\theta\,\partial_{\nu}\theta , 
+X  \equiv -\frac{1}{2\Lambda_{c}^{4}} g^{\mu\nu}\partial_{\mu}\theta\,\partial_{\nu}\theta , 
 \qquad
-\mathcal{G}\;\equiv\;\frac{\rho_{b}}{\rho_{\rm crit}}\; ,
+\mathcal{G} \equiv \frac{\rho_{b}}{\rho_{\rm crit}}  ,
 \qquad
-\rho_{\rm crit}\;\equiv\;\frac{3c^{2}H_{0}^{2}}{8\pi G}\, .
+\rho_{\rm crit} \equiv \frac{3c^{2}H_{0}^{2}}{8\pi G}\, .
 $$
 
 The function  
@@ -67,19 +67,19 @@ provides a non‑minimal coupling of the scalar to curvature; the small paramete
 In a spatially flat FRW background the gradient of $\theta$ is purely timelike:
 
 $$
-\partial_{\mu}\theta \;\simeq\;\Lambda_{c}^{2}\,n_{\mu}\,,
+\partial_{\mu}\theta  \simeq \Lambda_{c}^{2}\,n_{\mu}\,,
 \qquad
-n_{\mu}\;\equiv\;(1,0,0,0)\, .
+n_{\mu} \equiv (1,0,0,0)\, .
 $$
 
 With this configuration
 
 $$
-X \;\to\;\frac12 , 
+X  \to \frac12 , 
 \qquad
-u^{\mu}\;\equiv\;\frac{\partial^{\mu}\theta}
+u^{\mu} \equiv \frac{\partial^{\mu}\theta}
 {\sqrt{2\Lambda_{c}^{4}X}}
-\;\to\;n^{\mu}\,,
+ \to n^{\mu}\,,
 \qquad
 \nabla_{\mu}u^{\mu}=3H_{0}\, .
 $$
@@ -90,8 +90,8 @@ Thus the “space‑fluid” expands at the observed Hubble rate, i.e. *space is
 A concentration of baryons is modelled as a topological defect of $\theta$.  The defect is a vortex: within its core the scalar gradient is suppressed, $X\to0$, and consequently the vacuum energy density
 
 $$
-\rho_{\rm vac}\;\equiv\;-\frac{V(\mathcal{G})}{c^{2}}
-\;\;\simeq\;2\Lambda_{c}^{4}\,\bigl[\,1-e^{-\kappa\sqrt{\mathcal{G}}}\bigr]
+\rho_{\rm vac} \equiv -\frac{V(\mathcal{G})}{c^{2}}
+  \simeq 2\Lambda_{c}^{4}\,\bigl[\,1-e^{-\kappa\sqrt{\mathcal{G}}}\bigr]
 $$
 
 drops to zero.  The surrounding fluid therefore expands more rapidly, creating a pressure gradient that pulls other matter toward the core—**gravity**.  The vortex configuration is a dynamical solution of the field equations; no ad‑hoc source term is required.
@@ -100,7 +100,7 @@ drops to zero.  The surrounding fluid therefore expands more rapidly, creating a
 Laboratory Casimir measurements agree with the flat‑space Lifshitz formula to $\lesssim1\%$.  This requires that the vacuum energy density be *flat* on all sub‑cosmological scales.  The only way for the vacuum to “feel’’ the presence of matter while staying flat elsewhere is to have a *non‑linear, exponentially‑suppressed* response to the local baryon density.  The interaction potential in the action implements this behaviour:
 
 $$
-V(\mathcal{G}) \;=\; -\,2\Lambda_{c}^{4}\Bigl[\,1-\exp\!\bigl(-\kappa\sqrt{\mathcal{G}}\bigr)\Bigr] .
+V(\mathcal{G})  =  -\,2\Lambda_{c}^{4}\Bigl[\,1-\exp\!\bigl(-\kappa\sqrt{\mathcal{G}}\bigr)\Bigr] .
 $$
 
 For $\mathcal{G}\ll1$ (laboratory or high‑density environments) the potential vanishes, satisfying the Casimir constraint; for $\mathcal{G}\gtrsim1$ (galactic outskirts) the exponential term becomes important.
@@ -127,11 +127,11 @@ In the weak‑field, static limit the Einstein equation reduces to a modified Po
 
 $$
 \nabla^{2}\Phi
-\;=\;
+ = 
 4\pi G\bigl(\rho_{b}+\rho_{\rm vac}\bigr) ,
 \qquad
-\rho_{\rm vac}\;\equiv\;-\frac{V(\mathcal{G})}{c^{2}}
-\;=\;
+\rho_{\rm vac} \equiv -\frac{V(\mathcal{G})}{c^{2}}
+ = 
 \frac{2\Lambda_{c}^{4}}{c^{2}}\Bigl[1-e^{-\kappa\sqrt{\mathcal{G}}}\Bigr].
 $$
 
@@ -139,18 +139,18 @@ Using $\mathcal{G}\approx\rho_{b}/\rho_{\rm crit}$ and $g_{\rm bar}=GM/r^{2}$, o
 
 $$
 g_{\rm emergent}(g_{\rm bar})
-\;=\;
+ = 
 g_{\dagger}\Bigl[\,1-\exp\!\bigl(-\kappa\sqrt{g_{\rm bar}/g_{\dagger}}\bigr)\Bigr],
 \qquad
-g_{\dagger}\;\equiv\;\frac{cH_{0}}{2\pi}\;\simeq\;1.08\times10^{-10}\,{\rm m\,s^{-2}} .
+g_{\dagger} \equiv \frac{cH_{0}}{2\pi} \simeq 1.08\times10^{-10}\,{\rm m\,s^{-2}} .
 $$
 
 The total gravitational acceleration measured in a galaxy is therefore
 
 $$
 \boxed{%
-g_{\rm obs}\;=\;g_{\rm bar}\;+\;g_{\rm emergent}
-\;=\;g_{\rm bar}\;+\;g_{\dagger}\Bigl[\,1-\exp\!\bigl(-\kappa\sqrt{g_{\rm bar}/g_{\dagger}}\bigr)\Bigr] } .
+g_{\rm obs} = g_{\rm bar} + g_{\rm emergent}
+ = g_{\rm bar} + g_{\dagger}\Bigl[\,1-\exp\!\bigl(-\kappa\sqrt{g_{\rm bar}/g_{\dagger}}\bigr)\Bigr] } .
 $$
 
 This is *exactly* the empirical Radial Acceleration Relation (McGaugh–Lelli–Schombert 2016) for all rotationally supported galaxies.  The only free, dimensionless number is $\kappa$.
@@ -163,12 +163,12 @@ The exponential suppression is the Boltzmann factor for vacuum modes that are ex
 
 $$
 \frac{E_{\rm mode}}{k_{B}T_{\rm GH}}
-\;=\;
+ = 
 \kappa\,\sqrt{\frac{g_{\rm bar}}{g_{\dagger}}} ,
 \qquad
-E_{\rm mode}\;\simeq\;\frac{\hbar\,\sqrt{g_{\rm bar}\,g_{\dagger}}}{c},
+E_{\rm mode} \simeq \frac{\hbar\,\sqrt{g_{\rm bar}\,g_{\dagger}}}{c},
 \qquad
-T_{\rm GH}\;\equiv\;\frac{\hbar H_{0}}{2\pi k_{B}}
+T_{\rm GH} \equiv \frac{\hbar H_{0}}{2\pi k_{B}}
 =\frac{\hbar\,g_{\dagger}}{2\pi c\,k_{B}} .
 $$
 
@@ -180,8 +180,8 @@ $$
 =
 \frac{\hbar\,\sqrt{g_{\dagger}}}{c\,k_{B}T_{\rm GH}}
 =
-\sqrt{2\pi}\;\frac{2\pi}{c\sqrt{cH_{0}}}
-\;\simeq\;1.20 } .
+\sqrt{2\pi} \frac{2\pi}{c\sqrt{cH_{0}}}
+ \simeq 1.20 } .
 $$
 
 $\kappa$ is a *pure number* set entirely by the ratio of the de Sitter horizon temperature to the characteristic acceleration scale; no free parameters are involved.
@@ -194,7 +194,7 @@ The phonon Lagrangian is
 
 $$
 \mathcal{L}_{\rm ph}
-= a\,T^{4} \;+\; \dots
+= a\,T^{4}  +  \dots
 $$
 
 where the ellipsis denotes possible higher‑derivative corrections.  The equation of state $P_{\rm ph}=\rho_{\rm ph}/3$ leads to a pressure that supports the vortex and generates a flat rotation curve.  The phonon temperature is fixed by the balance between energy injected by baryonic vortices and the expansion of the fluid; its value is of order $T\sim10^{-3}\,{\rm K}$, consistent with the observed core‑size scaling of galactic halos.
